@@ -11,17 +11,6 @@ def generate_random_dataset(
 ):
     """
     Generate a random dataset for practice purposes.
-
-    Parameters:
-        num_entries (int): Number of entries (rows) in the dataset.
-        columns (list): List of column names for the dataset.
-        value_ranges (dict): Dictionary specifying the range of values for each column.
-                             E.g., {"Age": (18, 60), "Score": (0, 100)}
-        save_to_csv (bool): Whether to save the dataset as a CSV file.
-        filename (str): Filename for saving the dataset.
-
-    Returns:
-        pd.DataFrame: The generated dataset.
     """
 
     # Default columns if none are provided
